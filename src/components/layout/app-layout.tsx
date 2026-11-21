@@ -25,7 +25,7 @@ export function AppLayout() {
 						</span>
 					</header>
 
-					<main className='flex-1 bg-muted/30 p-6'>
+					<main className='min-w-0 flex-1 overflow-x-hidden bg-muted/30 p-6'>
 						<Outlet />
 					</main>
 				</div>
