@@ -38,7 +38,7 @@ export function AppSidebar() {
 					</div>
 
 					<div className='grid gap-0.5 flex-1 text-left text-sm leading-tight'>
-						<span className='truncate text-[20px] font-semibold'>граждане</span>
+						<span className='truncate text-[20px] font-bold'>граждане.</span>
 						<span className='truncate text-[10px] uppercase font-semibold text-muted-foreground'>
 							единая система учёта
 						</span>
