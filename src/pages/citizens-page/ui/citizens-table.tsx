@@ -7,9 +7,7 @@ import { CitizensFilters } from './citizens-filters';
 import { CitizensPagination } from './citizens-pagination';
 import { useCitizensTable, type SortField } from '../hooks/use-citizens-table';
 
-interface CitizensTableProps {
-	citizens: Citizen[];
-}
+import citizensData from '@/data/citizens.json';
 
 const avatarColors = [
 	'bg-blue-100 text-blue-700',
@@ -64,7 +62,9 @@ function getStatusColor(status: Citizen['socialStatus']['type']): string {
 	}
 }
 
-export const CitizensTable: React.FC<CitizensTableProps> = ({ citizens }) => {
+export const CitizensTable: React.FC = () => {
+	const citizens = citizensData as Citizen[];
+
 	const {
 		search,
 		genderFilter,

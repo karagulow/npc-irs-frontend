@@ -9,6 +9,7 @@ import {
 } from '@/components/ui/sidebar';
 
 import { AppSidebar } from './sidebar';
+import { ThemeToggle } from './theme-toggle';
 
 export function AppLayout() {
 	return (
@@ -25,6 +26,10 @@ export function AppLayout() {
 						<span className='text-sm font-medium'>
 							Система управления гражданами
 						</span>
+
+						<div className='ml-auto'>
+							<ThemeToggle />
+						</div>
 					</header>
 
 					<main className='min-w-0 flex-1 overflow-x-hidden bg-muted/30 p-6'>

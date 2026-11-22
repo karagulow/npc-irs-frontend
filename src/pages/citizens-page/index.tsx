@@ -1,19 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Plus } from 'lucide-react';
 
 import { Button } from '@/components/ui/button';
 import { CitizensTable } from './ui/citizens-table';
-import { type Citizen } from './types';
-
-import citizensData from '@/data/citizens.json';
 
 export const CitizensPage: React.FC = () => {
 	const navigate = useNavigate();
-
-	const [citizens, setCitizens] = useState<Citizen[]>(
-		citizensData as Citizen[],
-	);
 
 	return (
 		<div className='space-y-6'>
@@ -33,7 +26,7 @@ export const CitizensPage: React.FC = () => {
 				</Button>
 			</div>
 
-			<CitizensTable citizens={citizens} />
+			<CitizensTable />
 		</div>
 	);
 };
