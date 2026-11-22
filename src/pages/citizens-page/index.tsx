@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Plus } from 'lucide-react';
 
 import { Button } from '@/components/ui/button';
@@ -8,6 +9,8 @@ import { type Citizen } from './types';
 import citizensData from '@/data/citizens.json';
 
 export const CitizensPage: React.FC = () => {
+	const navigate = useNavigate();
+
 	const [citizens, setCitizens] = useState<Citizen[]>(
 		citizensData as Citizen[],
 	);
@@ -24,7 +27,7 @@ export const CitizensPage: React.FC = () => {
 					</p>
 				</div>
 
-				<Button>
+				<Button onClick={() => navigate('/citizens/new')}>
 					<Plus size={17} />
 					Добавить гражданина
 				</Button>

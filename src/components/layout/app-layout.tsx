@@ -1,5 +1,7 @@
 import { Outlet } from 'react-router-dom';
 
+import { Toaster } from '@/components/ui/toast';
+
 import {
 	SidebarInset,
 	SidebarProvider,
@@ -28,6 +30,8 @@ export function AppLayout() {
 					<main className='min-w-0 flex-1 overflow-x-hidden bg-muted/30 p-6'>
 						<Outlet />
 					</main>
+
+					<Toaster />
 				</div>
 			</SidebarInset>
 		</SidebarProvider>
