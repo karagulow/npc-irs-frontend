@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Plus } from 'lucide-react';
 
+import { Button } from '@/components/ui/button';
 import { CitizensTable } from './ui/citizens-table';
 import { type Citizen } from './types';
 
@@ -23,10 +24,10 @@ export const CitizensPage: React.FC = () => {
 					</p>
 				</div>
 
-				<button className='inline-flex h-10 items-center justify-center gap-2 rounded-lg bg-primary px-4 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90'>
+				<Button>
 					<Plus size={17} />
 					Добавить гражданина
-				</button>
+				</Button>
 			</div>
 
 			<CitizensTable citizens={citizens} />

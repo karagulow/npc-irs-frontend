@@ -6,547 +6,2632 @@
 		"middleName": "Александрович",
 		"birthDate": "1985-03-12",
 		"gender": "Мужской",
-		"district": "Центральный",
-		"socialStatus": "Работающий",
-		"registeredAt": "2022-01-15"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Москва",
+		"registrationDistrict": "Центральный",
+		"maritalStatus": "Женат",
+
+		"contacts": {
+			"phone": "+7 (999) 123-45-67",
+			"email": "ivanov@example.ru"
+		},
+
+		"addresses": {
+			"registration": "г. Москва, ул. Тверская, д. 10, кв. 25",
+			"actual": "г. Москва, ул. Арбат, д. 15, кв. 8"
+		},
+
+		"family": [
+			{
+				"fullName": "Иванова Мария Сергеевна",
+				"relationship": "Супруга",
+				"birthDate": "1987-07-21",
+				"employment": "Работает, бухгалтер"
+			},
+			{
+				"fullName": "Иванов Максим Александрович",
+				"relationship": "Сын",
+				"birthDate": "2012-05-16",
+				"employment": "Учащийся"
+			},
+			{
+				"fullName": "Иванова Анна Александровна",
+				"relationship": "Дочь",
+				"birthDate": "2017-09-03",
+				"employment": "Дошкольник"
+			}
+		],
+
+		"education": [
+			{
+				"institution": "МГУ им. М. В. Ломоносова",
+				"level": "Высшее",
+				"specialty": "Экономика",
+				"graduationYear": 2007
+			}
+		],
+
+		"employment": [
+			{
+				"organization": "ООО «Альфа»",
+				"position": "Главный бухгалтер",
+				"status": "Работает",
+				"startDate": "2018-06-01"
+			}
+		],
+
+		"socialStatus": {
+			"type": "Работающий",
+			"supportCategories": ["Многодетная семья"]
+		}
 	},
 	{
 		"id": 2,
-		"firstName": "Анна",
+		"firstName": "Елена",
 		"lastName": "Смирнова",
-		"middleName": "Дмитриевна",
-		"birthDate": "1992-07-24",
+		"middleName": "Викторовна",
+		"birthDate": "1978-11-24",
 		"gender": "Женский",
-		"district": "Северный",
-		"socialStatus": "Работающий",
-		"registeredAt": "2023-04-10"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Санкт-Петербург",
+		"registrationDistrict": "Северный",
+		"maritalStatus": "Разведена",
+		"contacts": {
+			"phone": "+7 (916) 234-56-78",
+			"email": "smirnova@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Лесная, д. 18, кв. 42",
+			"actual": "г. Москва, ул. Лесная, д. 18, кв. 42"
+		},
+		"family": [
+			{
+				"fullName": "Смирнов Дмитрий Андреевич",
+				"relationship": "Сын",
+				"birthDate": "2002-04-15",
+				"employment": "Работает, менеджер"
+			},
+			{
+				"fullName": "Смирнова Ольга Викторовна",
+				"relationship": "Мать",
+				"birthDate": "1952-08-10",
+				"employment": "Пенсионер"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский педагогический государственный университет",
+				"level": "Высшее",
+				"specialty": "Педагогика и психология",
+				"graduationYear": 2000
+			}
+		],
+		"employment": [
+			{
+				"organization": "ГБОУ Школа № 1250",
+				"position": "Учитель начальных классов",
+				"status": "Работает",
+				"startDate": "2010-09-01"
+			}
+		],
+		"socialStatus": {
+			"type": "Работающий",
+			"supportCategories": ["Малоимущая семья"]
+		}
 	},
 	{
 		"id": 3,
-		"firstName": "Дмитрий",
-		"lastName": "Кузнецов",
-		"middleName": "Сергеевич",
-		"birthDate": "1958-11-05",
+		"firstName": "Сергей",
+		"lastName": "Петров",
+		"middleName": "Николаевич",
+		"birthDate": "1959-06-08",
 		"gender": "Мужской",
-		"district": "Южный",
-		"socialStatus": "Пенсионер",
-		"registeredAt": "2021-08-22"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Тула",
+		"registrationDistrict": "Южный",
+		"maritalStatus": "Женат",
+		"contacts": {
+			"phone": "+7 (903) 345-67-89",
+			"email": "petrov@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Каширская, д. 7, кв. 19",
+			"actual": "г. Москва, ул. Каширская, д. 7, кв. 19"
+		},
+		"family": [
+			{
+				"fullName": "Петрова Ирина Павловна",
+				"relationship": "Супруга",
+				"birthDate": "1961-02-19",
+				"employment": "Пенсионер"
+			},
+			{
+				"fullName": "Петров Алексей Сергеевич",
+				"relationship": "Сын",
+				"birthDate": "1988-12-04",
+				"employment": "Работает, инженер"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский государственный технический университет им. Н. Э. Баумана",
+				"level": "Высшее",
+				"specialty": "Машиностроение",
+				"graduationYear": 1982
+			}
+		],
+		"employment": [
+			{
+				"organization": "АО «Московский завод»",
+				"position": "Инженер-конструктор",
+				"status": "Пенсионер",
+				"startDate": "1983-08-15"
+			}
+		],
+		"socialStatus": {
+			"type": "Пенсионер",
+			"supportCategories": ["Ветеран труда"]
+		}
 	},
 	{
 		"id": 4,
 		"firstName": "Мария",
-		"lastName": "Попова",
-		"middleName": "Александровна",
-		"birthDate": "2001-02-18",
+		"lastName": "Кузнецова",
+		"middleName": "Олеговна",
+		"birthDate": "1995-02-17",
 		"gender": "Женский",
-		"district": "Восточный",
-		"socialStatus": "Студент",
-		"registeredAt": "2024-09-03"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Москва",
+		"registrationDistrict": "Западный",
+		"maritalStatus": "Не замужем",
+		"contacts": {
+			"phone": "+7 (905) 456-78-90",
+			"email": "kuznetsova@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Молодёжная, д. 22, кв. 56",
+			"actual": "г. Москва, ул. Молодёжная, д. 22, кв. 56"
+		},
+		"family": [
+			{
+				"fullName": "Кузнецов Олег Владимирович",
+				"relationship": "Отец",
+				"birthDate": "1968-10-11",
+				"employment": "Работает, водитель"
+			},
+			{
+				"fullName": "Кузнецова Наталья Сергеевна",
+				"relationship": "Мать",
+				"birthDate": "1970-03-26",
+				"employment": "Работает, продавец"
+			}
+		],
+		"education": [
+			{
+				"institution": "Российский экономический университет им. Г. В. Плеханова",
+				"level": "Высшее",
+				"specialty": "Маркетинг",
+				"graduationYear": 2017
+			}
+		],
+		"employment": [
+			{
+				"organization": "ООО «Медиа Групп»",
+				"position": "Маркетолог",
+				"status": "Работает",
+				"startDate": "2019-03-11"
+			}
+		],
+		"socialStatus": {
+			"type": "Работающий",
+			"supportCategories": []
+		}
 	},
 	{
 		"id": 5,
-		"firstName": "Максим",
+		"firstName": "Дмитрий",
 		"lastName": "Соколов",
-		"middleName": "Андреевич",
-		"birthDate": "1976-06-30",
+		"middleName": "Игоревич",
+		"birthDate": "2004-09-29",
 		"gender": "Мужской",
-		"district": "Западный",
-		"socialStatus": "Работающий",
-		"registeredAt": "2022-05-17"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Москва",
+		"registrationDistrict": "Восточный",
+		"maritalStatus": "Не женат",
+		"contacts": {
+			"phone": "+7 (999) 567-89-01",
+			"email": "sokolov@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Первомайская, д. 31, кв. 12",
+			"actual": "г. Москва, ул. Первомайская, д. 31, кв. 12"
+		},
+		"family": [
+			{
+				"fullName": "Соколов Игорь Дмитриевич",
+				"relationship": "Отец",
+				"birthDate": "1975-01-13",
+				"employment": "Работает, электрик"
+			},
+			{
+				"fullName": "Соколова Екатерина Андреевна",
+				"relationship": "Мать",
+				"birthDate": "1977-05-20",
+				"employment": "Работает, бухгалтер"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский политехнический университет",
+				"level": "Среднее профессиональное",
+				"specialty": "Программирование",
+				"graduationYear": 2024
+			}
+		],
+		"employment": [],
+		"socialStatus": {
+			"type": "Студент",
+			"supportCategories": ["Молодая семья"]
+		}
 	},
 	{
 		"id": 6,
-		"firstName": "Елена",
-		"lastName": "Иванова",
-		"middleName": "Максимовна",
-		"birthDate": "1949-12-09",
+		"firstName": "Наталья",
+		"lastName": "Попова",
+		"middleName": "Алексеевна",
+		"birthDate": "1982-04-05",
 		"gender": "Женский",
-		"district": "Юго-Западный",
-		"socialStatus": "Пенсионер",
-		"registeredAt": "2021-03-11"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Рязань",
+		"registrationDistrict": "Северо-Восточный",
+		"maritalStatus": "Замужем",
+		"contacts": {
+			"phone": "+7 (901) 678-90-12",
+			"email": "popova@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Отрадная, д. 9, кв. 34",
+			"actual": "г. Москва, ул. Отрадная, д. 9, кв. 34"
+		},
+		"family": [
+			{
+				"fullName": "Попов Андрей Владимирович",
+				"relationship": "Супруг",
+				"birthDate": "1980-12-18",
+				"employment": "Работает, водитель"
+			},
+			{
+				"fullName": "Попова София Андреевна",
+				"relationship": "Дочь",
+				"birthDate": "2010-06-22",
+				"employment": "Учащаяся"
+			},
+			{
+				"fullName": "Попов Михаил Андреевич",
+				"relationship": "Сын",
+				"birthDate": "2015-11-07",
+				"employment": "Учащийся"
+			},
+			{
+				"fullName": "Попова Алиса Андреевна",
+				"relationship": "Дочь",
+				"birthDate": "2020-01-14",
+				"employment": "Дошкольник"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский государственный университет сервиса",
+				"level": "Высшее",
+				"specialty": "Социальная работа",
+				"graduationYear": 2005
+			}
+		],
+		"employment": [
+			{
+				"organization": "ГБУ «Мой социальный центр»",
+				"position": "Специалист по социальной работе",
+				"status": "Работает",
+				"startDate": "2014-02-03"
+			}
+		],
+		"socialStatus": {
+			"type": "Работающий",
+			"supportCategories": ["Многодетная семья"]
+		}
 	},
 	{
 		"id": 7,
 		"firstName": "Андрей",
-		"lastName": "Смирнов",
-		"middleName": "Дмитриевич",
-		"birthDate": "1998-04-21",
+		"lastName": "Волков",
+		"middleName": "Евгеньевич",
+		"birthDate": "1990-12-01",
 		"gender": "Мужской",
-		"district": "Северо-Восточный",
-		"socialStatus": "Студент",
-		"registeredAt": "2025-02-14"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Владимир",
+		"registrationDistrict": "Юго-Восточный",
+		"maritalStatus": "Не женат",
+		"contacts": {
+			"phone": "+7 (902) 789-01-23",
+			"email": "volkov@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Люблинская, д. 44, кв. 61",
+			"actual": "г. Москва, ул. Люблинская, д. 44, кв. 61"
+		},
+		"family": [],
+		"education": [
+			{
+				"institution": "Московский государственный строительный университет",
+				"level": "Высшее",
+				"specialty": "Строительство",
+				"graduationYear": 2013
+			}
+		],
+		"employment": [
+			{
+				"organization": "ООО «СтройПроект»",
+				"position": "Прораб",
+				"status": "Работает",
+				"startDate": "2016-05-10"
+			}
+		],
+		"socialStatus": {
+			"type": "Работающий",
+			"supportCategories": []
+		}
 	},
 	{
 		"id": 8,
-		"firstName": "Ольга",
-		"lastName": "Кузнецова",
-		"middleName": "Сергеевна",
-		"birthDate": "1988-09-14",
+		"firstName": "Татьяна",
+		"lastName": "Морозова",
+		"middleName": "Петровна",
+		"birthDate": "1964-08-30",
 		"gender": "Женский",
-		"district": "Юго-Восточный",
-		"socialStatus": "Работающий",
-		"registeredAt": "2023-06-28"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Калуга",
+		"registrationDistrict": "Южный",
+		"maritalStatus": "Вдова",
+		"contacts": {
+			"phone": "+7 (903) 890-12-34",
+			"email": "morozova@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Борисовские пруды, д. 16, кв. 7",
+			"actual": "г. Москва, ул. Борисовские пруды, д. 16, кв. 7"
+		},
+		"family": [
+			{
+				"fullName": "Морозов Павел Сергеевич",
+				"relationship": "Сын",
+				"birthDate": "1989-07-12",
+				"employment": "Работает, врач"
+			},
+			{
+				"fullName": "Морозова Елена Сергеевна",
+				"relationship": "Дочь",
+				"birthDate": "1992-03-08",
+				"employment": "Работает, учитель"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский медицинский колледж",
+				"level": "Среднее профессиональное",
+				"specialty": "Медицинская сестра",
+				"graduationYear": 1985
+			}
+		],
+		"employment": [
+			{
+				"organization": "ГКБ № 15",
+				"position": "Медицинская сестра",
+				"status": "Пенсионер",
+				"startDate": "1986-08-20"
+			}
+		],
+		"socialStatus": {
+			"type": "Пенсионер",
+			"supportCategories": ["Ветеран труда"]
+		}
 	},
 	{
 		"id": 9,
-		"firstName": "Сергей",
-		"lastName": "Попов",
-		"middleName": "Александрович",
-		"birthDate": "1962-01-27",
+		"firstName": "Кирилл",
+		"lastName": "Новиков",
+		"middleName": "Максимович",
+		"birthDate": "2001-01-19",
 		"gender": "Мужской",
-		"district": "Северо-Западный",
-		"socialStatus": "Пенсионер",
-		"registeredAt": "2022-11-19"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Москва",
+		"registrationDistrict": "Зеленоградский",
+		"maritalStatus": "Не женат",
+		"contacts": {
+			"phone": "+7 (904) 901-23-45",
+			"email": "novikov@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, Зеленоград, корп. 1204, кв. 18",
+			"actual": "г. Москва, Зеленоград, корп. 1204, кв. 18"
+		},
+		"family": [
+			{
+				"fullName": "Новиков Максим Олегович",
+				"relationship": "Отец",
+				"birthDate": "1972-04-09",
+				"employment": "Работает, инженер"
+			},
+			{
+				"fullName": "Новикова Ирина Владимировна",
+				"relationship": "Мать",
+				"birthDate": "1974-12-27",
+				"employment": "Работает, менеджер"
+			}
+		],
+		"education": [
+			{
+				"institution": "Национальный исследовательский университет «Высшая школа экономики»",
+				"level": "Высшее",
+				"specialty": "Прикладная информатика",
+				"graduationYear": 2023
+			}
+		],
+		"employment": [
+			{
+				"organization": "ООО «Технологии будущего»",
+				"position": "Frontend-разработчик",
+				"status": "Работает",
+				"startDate": "2023-07-17"
+			}
+		],
+		"socialStatus": {
+			"type": "Работающий",
+			"supportCategories": []
+		}
 	},
 	{
 		"id": 10,
-		"firstName": "Наталья",
-		"lastName": "Соколова",
-		"middleName": "Андреевна",
-		"birthDate": "1995-05-08",
+		"firstName": "Ольга",
+		"lastName": "Лебедева",
+		"middleName": "Михайловна",
+		"birthDate": "1993-05-14",
 		"gender": "Женский",
-		"district": "Зеленоградский",
-		"socialStatus": "Безработный",
-		"registeredAt": "2024-01-25"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Москва",
+		"registrationDistrict": "Троицкий",
+		"maritalStatus": "Замужем",
+		"contacts": {
+			"phone": "+7 (905) 012-34-56",
+			"email": "lebedeva@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, г. Троицк, ул. Октябрьская, д. 5, кв. 11",
+			"actual": "г. Москва, г. Троицк, ул. Октябрьская, д. 5, кв. 11"
+		},
+		"family": [
+			{
+				"fullName": "Лебедев Артём Николаевич",
+				"relationship": "Супруг",
+				"birthDate": "1991-10-02",
+				"employment": "Работает, программист"
+			},
+			{
+				"fullName": "Лебедева Варвара Артёмовна",
+				"relationship": "Дочь",
+				"birthDate": "2022-02-25",
+				"employment": "Дошкольник"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский государственный университет культуры",
+				"level": "Высшее",
+				"specialty": "Культурология",
+				"graduationYear": 2015
+			}
+		],
+		"employment": [
+			{
+				"organization": "ГБУК г. Москвы «Дом культуры»",
+				"position": "Организатор мероприятий",
+				"status": "Работает",
+				"startDate": "2017-09-04"
+			}
+		],
+		"socialStatus": {
+			"type": "Работающий",
+			"supportCategories": ["Молодая семья"]
+		}
 	},
 	{
 		"id": 11,
-		"firstName": "Александр",
-		"lastName": "Смирнов",
-		"middleName": "Максимович",
-		"birthDate": "1970-08-16",
+		"firstName": "Владимир",
+		"lastName": "Зайцев",
+		"middleName": "Борисович",
+		"birthDate": "1956-02-18",
 		"gender": "Мужской",
-		"district": "Центральный",
-		"socialStatus": "Работающий",
-		"registeredAt": "2023-03-07"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Ярославль",
+		"registrationDistrict": "Центральный",
+		"maritalStatus": "Женат",
+		"contacts": {
+			"phone": "+7 (916) 111-22-33",
+			"email": "zaitsev@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Большая Никитская, д. 24, кв. 16",
+			"actual": "г. Москва, ул. Большая Никитская, д. 24, кв. 16"
+		},
+		"family": [
+			{
+				"fullName": "Зайцева Людмила Ивановна",
+				"relationship": "Супруга",
+				"birthDate": "1958-09-12",
+				"employment": "Пенсионер"
+			},
+			{
+				"fullName": "Зайцев Борис Владимирович",
+				"relationship": "Сын",
+				"birthDate": "1983-06-25",
+				"employment": "Работает, юрист"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский государственный университет",
+				"level": "Высшее",
+				"specialty": "История",
+				"graduationYear": 1979
+			}
+		],
+		"employment": [
+			{
+				"organization": "Государственный исторический музей",
+				"position": "Научный сотрудник",
+				"status": "Пенсионер",
+				"startDate": "1980-03-10"
+			}
+		],
+		"socialStatus": {
+			"type": "Пенсионер",
+			"supportCategories": ["Ветеран труда"]
+		}
 	},
 	{
 		"id": 12,
-		"firstName": "Мария",
-		"lastName": "Иванова",
-		"middleName": "Дмитриевна",
-		"birthDate": "2004-10-11",
+		"firstName": "Анастасия",
+		"lastName": "Васильева",
+		"middleName": "Романовна",
+		"birthDate": "2003-07-22",
 		"gender": "Женский",
-		"district": "Северный",
-		"socialStatus": "Студент",
-		"registeredAt": "2025-09-12"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Москва",
+		"registrationDistrict": "Северный",
+		"maritalStatus": "Не замужем",
+		"contacts": {
+			"phone": "+7 (916) 222-33-44",
+			"email": "vasilieva@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Дмитровское шоссе, д. 45, кв. 87",
+			"actual": "г. Москва, ул. Дмитровское шоссе, д. 45, кв. 87"
+		},
+		"family": [
+			{
+				"fullName": "Васильев Роман Сергеевич",
+				"relationship": "Отец",
+				"birthDate": "1976-03-14",
+				"employment": "Работает, водитель"
+			},
+			{
+				"fullName": "Васильева Елена Петровна",
+				"relationship": "Мать",
+				"birthDate": "1978-11-30",
+				"employment": "Работает, медсестра"
+			}
+		],
+		"education": [
+			{
+				"institution": "Российский государственный гуманитарный университет",
+				"level": "Высшее",
+				"specialty": "Дизайн",
+				"graduationYear": 2025
+			}
+		],
+		"employment": [],
+		"socialStatus": {
+			"type": "Студент",
+			"supportCategories": ["Молодой специалист"]
+		}
 	},
 	{
 		"id": 13,
-		"firstName": "Дмитрий",
-		"lastName": "Попов",
-		"middleName": "Андреевич",
-		"birthDate": "1981-02-03",
+		"firstName": "Михаил",
+		"lastName": "Фёдоров",
+		"middleName": "Артёмович",
+		"birthDate": "1988-10-06",
 		"gender": "Мужской",
-		"district": "Южный",
-		"socialStatus": "Работающий",
-		"registeredAt": "2022-07-16"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Казань",
+		"registrationDistrict": "Юго-Западный",
+		"maritalStatus": "Разведен",
+		"contacts": {
+			"phone": "+7 (916) 333-44-55",
+			"email": "fedorov@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Профсоюзная, д. 62, кв. 104",
+			"actual": "г. Москва, ул. Профсоюзная, д. 62, кв. 104"
+		},
+		"family": [
+			{
+				"fullName": "Фёдорова Полина Михайловна",
+				"relationship": "Дочь",
+				"birthDate": "2016-08-19",
+				"employment": "Учащаяся"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский авиационный институт",
+				"level": "Высшее",
+				"specialty": "Информационные системы",
+				"graduationYear": 2011
+			}
+		],
+		"employment": [
+			{
+				"organization": "ООО «Системные решения»",
+				"position": "Системный администратор",
+				"status": "Работает",
+				"startDate": "2015-04-20"
+			}
+		],
+		"socialStatus": {
+			"type": "Работающий",
+			"supportCategories": ["Одинокий родитель"]
+		}
 	},
 	{
 		"id": 14,
-		"firstName": "Анна",
-		"lastName": "Кузнецова",
-		"middleName": "Александровна",
-		"birthDate": "1955-07-19",
+		"firstName": "Ирина",
+		"lastName": "Павлова",
+		"middleName": "Денисовна",
+		"birthDate": "1971-01-27",
 		"gender": "Женский",
-		"district": "Восточный",
-		"socialStatus": "Пенсионер",
-		"registeredAt": "2021-12-05"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Смоленск",
+		"registrationDistrict": "Восточный",
+		"maritalStatus": "Замужем",
+		"contacts": {
+			"phone": "+7 (916) 444-55-66",
+			"email": "pavlova@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Щёлковское шоссе, д. 12, кв. 39",
+			"actual": "г. Москва, ул. Щёлковское шоссе, д. 12, кв. 39"
+		},
+		"family": [
+			{
+				"fullName": "Павлов Денис Викторович",
+				"relationship": "Супруг",
+				"birthDate": "1969-05-09",
+				"employment": "Работает, электрик"
+			},
+			{
+				"fullName": "Павлова Екатерина Денисовна",
+				"relationship": "Дочь",
+				"birthDate": "1994-12-13",
+				"employment": "Работает, врач"
+			},
+			{
+				"fullName": "Павлов Артём Денисович",
+				"relationship": "Сын",
+				"birthDate": "1998-04-21",
+				"employment": "Работает, менеджер"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский государственный институт культуры",
+				"level": "Высшее",
+				"specialty": "Библиотечное дело",
+				"graduationYear": 1993
+			}
+		],
+		"employment": [
+			{
+				"organization": "Центральная городская библиотека",
+				"position": "Заведующая отделом",
+				"status": "Работает",
+				"startDate": "2001-08-15"
+			}
+		],
+		"socialStatus": {
+			"type": "Работающий",
+			"supportCategories": []
+		}
 	},
 	{
 		"id": 15,
-		"firstName": "Максим",
-		"lastName": "Иванов",
-		"middleName": "Сергеевич",
-		"birthDate": "1990-12-22",
+		"firstName": "Роман",
+		"lastName": "Белов",
+		"middleName": "Константинович",
+		"birthDate": "1997-04-11",
 		"gender": "Мужской",
-		"district": "Западный",
-		"socialStatus": "Работающий",
-		"registeredAt": "2024-05-20"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Москва",
+		"registrationDistrict": "Юго-Восточный",
+		"maritalStatus": "Не женат",
+		"contacts": {
+			"phone": "+7 (916) 555-66-77",
+			"email": "belov@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Волжский бульвар, д. 8, кв. 53",
+			"actual": "г. Москва, ул. Волжский бульвар, д. 8, кв. 53"
+		},
+		"family": [],
+		"education": [
+			{
+				"institution": "Московский колледж информационных технологий",
+				"level": "Среднее профессиональное",
+				"specialty": "Сетевое администрирование",
+				"graduationYear": 2016
+			}
+		],
+		"employment": [],
+		"socialStatus": {
+			"type": "Безработный",
+			"supportCategories": ["Ищущий работу"]
+		}
 	},
 	{
 		"id": 16,
-		"firstName": "Елена",
-		"lastName": "Попова",
-		"middleName": "Максимовна",
-		"birthDate": "1983-04-06",
+		"firstName": "Светлана",
+		"lastName": "Орлова",
+		"middleName": "Игоревна",
+		"birthDate": "1980-06-16",
 		"gender": "Женский",
-		"district": "Юго-Западный",
-		"socialStatus": "Работающий",
-		"registeredAt": "2023-10-14"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Орёл",
+		"registrationDistrict": "Северо-Западный",
+		"maritalStatus": "Замужем",
+		"contacts": {
+			"phone": "+7 (916) 666-77-88",
+			"email": "orlova@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Митинская, д. 25, кв. 72",
+			"actual": "г. Москва, ул. Митинская, д. 25, кв. 72"
+		},
+		"family": [
+			{
+				"fullName": "Орлов Игорь Николаевич",
+				"relationship": "Супруг",
+				"birthDate": "1978-02-28",
+				"employment": "Работает, инженер"
+			},
+			{
+				"fullName": "Орлова Дарья Игоревна",
+				"relationship": "Дочь",
+				"birthDate": "2008-10-10",
+				"employment": "Учащаяся"
+			},
+			{
+				"fullName": "Орлов Никита Игоревич",
+				"relationship": "Сын",
+				"birthDate": "2013-03-17",
+				"employment": "Учащийся"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский государственный университет экономики, статистики и информатики",
+				"level": "Высшее",
+				"specialty": "Финансы и кредит",
+				"graduationYear": 2002
+			}
+		],
+		"employment": [
+			{
+				"organization": "ПАО «Банк развития»",
+				"position": "Экономист",
+				"status": "Работает",
+				"startDate": "2008-10-01"
+			}
+		],
+		"socialStatus": {
+			"type": "Работающий",
+			"supportCategories": ["Многодетная семья"]
+		}
 	},
 	{
 		"id": 17,
-		"firstName": "Андрей",
-		"lastName": "Кузнецов",
-		"middleName": "Александрович",
-		"birthDate": "1973-09-25",
+		"firstName": "Николай",
+		"lastName": "Григорьев",
+		"middleName": "Валерьевич",
+		"birthDate": "1949-12-09",
 		"gender": "Мужской",
-		"district": "Северо-Восточный",
-		"socialStatus": "Безработный",
-		"registeredAt": "2022-02-18"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Воронеж",
+		"registrationDistrict": "Южный",
+		"maritalStatus": "Вдовец",
+		"contacts": {
+			"phone": "+7 (916) 777-88-99",
+			"email": "grigoriev@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Чертановская, д. 19, кв. 14",
+			"actual": "г. Москва, ул. Чертановская, д. 19, кв. 14"
+		},
+		"family": [
+			{
+				"fullName": "Григорьева Марина Николаевна",
+				"relationship": "Дочь",
+				"birthDate": "1977-05-22",
+				"employment": "Работает, бухгалтер"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский энергетический институт",
+				"level": "Высшее",
+				"specialty": "Энергетика",
+				"graduationYear": 1972
+			}
+		],
+		"employment": [
+			{
+				"organization": "Мосэнерго",
+				"position": "Электрик",
+				"status": "Пенсионер",
+				"startDate": "1973-02-01"
+			}
+		],
+		"socialStatus": {
+			"type": "Пенсионер",
+			"supportCategories": ["Ветеран труда", "Инвалид II группы"]
+		}
 	},
 	{
 		"id": 18,
-		"firstName": "Ольга",
-		"lastName": "Смирнова",
-		"middleName": "Дмитриевна",
-		"birthDate": "1999-11-30",
+		"firstName": "Юлия",
+		"lastName": "Крылова",
+		"middleName": "Андреевна",
+		"birthDate": "1999-09-03",
 		"gender": "Женский",
-		"district": "Юго-Восточный",
-		"socialStatus": "Студент",
-		"registeredAt": "2025-01-09"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Москва",
+		"registrationDistrict": "Зеленоградский",
+		"maritalStatus": "Не замужем",
+		"contacts": {
+			"phone": "+7 (916) 888-99-00",
+			"email": "krylova@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, Зеленоград, корп. 1501, кв. 25",
+			"actual": "г. Москва, Зеленоград, корп. 1501, кв. 25"
+		},
+		"family": [
+			{
+				"fullName": "Крылов Андрей Викторович",
+				"relationship": "Отец",
+				"birthDate": "1971-11-18",
+				"employment": "Работает, водитель"
+			},
+			{
+				"fullName": "Крылова Татьяна Сергеевна",
+				"relationship": "Мать",
+				"birthDate": "1973-06-02",
+				"employment": "Работает, воспитатель"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский государственный университет имени М. В. Ломоносова",
+				"level": "Высшее",
+				"specialty": "Юриспруденция",
+				"graduationYear": 2021
+			}
+		],
+		"employment": [
+			{
+				"organization": "Юридическая компания «Право»",
+				"position": "Помощник юриста",
+				"status": "Работает",
+				"startDate": "2022-02-14"
+			}
+		],
+		"socialStatus": {
+			"type": "Работающий",
+			"supportCategories": ["Молодой специалист"]
+		}
 	},
 	{
 		"id": 19,
-		"firstName": "Сергей",
-		"lastName": "Иванов",
-		"middleName": "Сергеевич",
-		"birthDate": "1952-06-13",
+		"firstName": "Виктор",
+		"lastName": "Макаров",
+		"middleName": "Павлович",
+		"birthDate": "1975-08-21",
 		"gender": "Мужской",
-		"district": "Северо-Западный",
-		"socialStatus": "Пенсионер",
-		"registeredAt": "2021-06-21"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Самара",
+		"registrationDistrict": "Восточный",
+		"maritalStatus": "Женат",
+		"contacts": {
+			"phone": "+7 (916) 999-00-11",
+			"email": "makarov@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Измайловский проспект, д. 20, кв. 31",
+			"actual": "г. Москва, ул. Измайловский проспект, д. 20, кв. 31"
+		},
+		"family": [
+			{
+				"fullName": "Макарова Наталья Владимировна",
+				"relationship": "Супруга",
+				"birthDate": "1977-01-16",
+				"employment": "Работает, менеджер"
+			},
+			{
+				"fullName": "Макаров Павел Викторович",
+				"relationship": "Сын",
+				"birthDate": "2000-03-29",
+				"employment": "Работает, специалист по IT"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский государственный университет путей сообщения",
+				"level": "Высшее",
+				"specialty": "Транспортная логистика",
+				"graduationYear": 1997
+			}
+		],
+		"employment": [
+			{
+				"organization": "ОАО «РЖД»",
+				"position": "Начальник участка",
+				"status": "Работает",
+				"startDate": "2005-07-01"
+			}
+		],
+		"socialStatus": {
+			"type": "Работающий",
+			"supportCategories": []
+		}
 	},
 	{
 		"id": 20,
-		"firstName": "Наталья",
-		"lastName": "Попова",
-		"middleName": "Андреевна",
-		"birthDate": "1987-01-17",
+		"firstName": "Вера",
+		"lastName": "Егорова",
+		"middleName": "Степановна",
+		"birthDate": "1967-03-25",
 		"gender": "Женский",
-		"district": "Зеленоградский",
-		"socialStatus": "Инвалид",
-		"registeredAt": "2023-08-30"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Брянск",
+		"registrationDistrict": "Троицкий",
+		"maritalStatus": "Разведена",
+		"contacts": {
+			"phone": "+7 (916) 000-11-22",
+			"email": "egorova@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, г. Троицк, ул. Центральная, д. 14, кв. 9",
+			"actual": "г. Москва, г. Троицк, ул. Центральная, д. 14, кв. 9"
+		},
+		"family": [
+			{
+				"fullName": "Егорова Анастасия Сергеевна",
+				"relationship": "Дочь",
+				"birthDate": "1990-11-06",
+				"employment": "Работает, педагог"
+			},
+			{
+				"fullName": "Егоров Михаил Сергеевич",
+				"relationship": "Сын",
+				"birthDate": "1994-07-15",
+				"employment": "Работает, строитель"
+			},
+			{
+				"fullName": "Егорова Полина Михайловна",
+				"relationship": "Внучка",
+				"birthDate": "2018-04-02",
+				"employment": "Дошкольник"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский педагогический колледж",
+				"level": "Среднее профессиональное",
+				"specialty": "Дошкольное образование",
+				"graduationYear": 1987
+			}
+		],
+		"employment": [],
+		"socialStatus": {
+			"type": "Безработный",
+			"supportCategories": ["Предпенсионер", "Малоимущая семья"]
+		}
 	},
 	{
 		"id": 21,
-		"firstName": "Александр",
-		"lastName": "Кузнецов",
-		"middleName": "Дмитриевич",
-		"birthDate": "1968-03-29",
+		"firstName": "Артём",
+		"lastName": "Голубев",
+		"middleName": "Станиславович",
+		"birthDate": "1992-06-14",
 		"gender": "Мужской",
-		"district": "Центральный",
-		"socialStatus": "Работающий",
-		"registeredAt": "2024-02-11"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Москва",
+		"registrationDistrict": "Северо-Западный",
+		"maritalStatus": "Женат",
+		"contacts": {
+			"phone": "+7 (915) 101-20-30",
+			"email": "golubev@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Панфиловская, д. 8, кв. 41",
+			"actual": "г. Москва, ул. Панфиловская, д. 8, кв. 41"
+		},
+		"family": [
+			{
+				"fullName": "Голубева Ксения Игоревна",
+				"relationship": "Супруга",
+				"birthDate": "1993-09-22",
+				"employment": "Работает, дизайнер"
+			},
+			{
+				"fullName": "Голубев Матвей Артёмович",
+				"relationship": "Сын",
+				"birthDate": "2021-12-05",
+				"employment": "Дошкольник"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский государственный университет технологий и управления",
+				"level": "Высшее",
+				"specialty": "Менеджмент",
+				"graduationYear": 2014
+			}
+		],
+		"employment": [
+			{
+				"organization": "ИП Голубев А. С.",
+				"position": "Предприниматель",
+				"status": "Самозанятый",
+				"startDate": "2020-05-12"
+			}
+		],
+		"socialStatus": {
+			"type": "Самозанятый",
+			"supportCategories": ["Молодая семья"]
+		}
 	},
 	{
 		"id": 22,
-		"firstName": "Анна",
-		"lastName": "Соколова",
-		"middleName": "Сергеевна",
-		"birthDate": "1993-08-07",
+		"firstName": "Людмила",
+		"lastName": "Баранова",
+		"middleName": "Фёдоровна",
+		"birthDate": "1953-10-07",
 		"gender": "Женский",
-		"district": "Северный",
-		"socialStatus": "Работающий",
-		"registeredAt": "2022-09-14"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Иваново",
+		"registrationDistrict": "Юго-Восточный",
+		"maritalStatus": "Вдова",
+		"contacts": {
+			"phone": "+7 (915) 202-30-40",
+			"email": "baranova@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Рязанский проспект, д. 28, кв. 17",
+			"actual": "г. Москва, ул. Рязанский проспект, д. 28, кв. 17"
+		},
+		"family": [
+			{
+				"fullName": "Баранова Оксана Сергеевна",
+				"relationship": "Дочь",
+				"birthDate": "1979-02-18",
+				"employment": "Работает, бухгалтер"
+			},
+			{
+				"fullName": "Баранов Илья Андреевич",
+				"relationship": "Внук",
+				"birthDate": "2005-08-23",
+				"employment": "Студент"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский техникум лёгкой промышленности",
+				"level": "Среднее профессиональное",
+				"specialty": "Швейное производство",
+				"graduationYear": 1973
+			}
+		],
+		"employment": [
+			{
+				"organization": "Фабрика «Большевичка»",
+				"position": "Швея",
+				"status": "Пенсионер",
+				"startDate": "1974-01-15"
+			}
+		],
+		"socialStatus": {
+			"type": "Пенсионер",
+			"supportCategories": ["Ветеран труда"]
+		}
 	},
 	{
 		"id": 23,
-		"firstName": "Дмитрий",
-		"lastName": "Иванов",
-		"middleName": "Александрович",
-		"birthDate": "1950-05-24",
+		"firstName": "Тимур",
+		"lastName": "Шарипов",
+		"middleName": "Рустамович",
+		"birthDate": "2000-04-28",
 		"gender": "Мужской",
-		"district": "Южный",
-		"socialStatus": "Пенсионер",
-		"registeredAt": "2021-04-02"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Уфа",
+		"registrationDistrict": "Центральный",
+		"maritalStatus": "Не женат",
+		"contacts": {
+			"phone": "+7 (915) 303-40-50",
+			"email": "sharipov@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Садовая-Каретная, д. 6, кв. 23",
+			"actual": "г. Москва, ул. Садовая-Каретная, д. 6, кв. 23"
+		},
+		"family": [],
+		"education": [
+			{
+				"institution": "Московский колледж связи",
+				"level": "Среднее профессиональное",
+				"specialty": "Информационные сети",
+				"graduationYear": 2020
+			}
+		],
+		"employment": [
+			{
+				"organization": "ООО «Телеком-Сервис»",
+				"position": "Техник",
+				"status": "Работает",
+				"startDate": "2021-02-01"
+			}
+		],
+		"socialStatus": {
+			"type": "Работающий",
+			"supportCategories": []
+		}
 	},
 	{
 		"id": 24,
-		"firstName": "Мария",
-		"lastName": "Смирнова",
-		"middleName": "Максимовна",
-		"birthDate": "2002-12-03",
+		"firstName": "Екатерина",
+		"lastName": "Данилова",
+		"middleName": "Владимировна",
+		"birthDate": "1986-12-19",
 		"gender": "Женский",
-		"district": "Восточный",
-		"socialStatus": "Студент",
-		"registeredAt": "2025-06-19"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Москва",
+		"registrationDistrict": "Западный",
+		"maritalStatus": "Замужем",
+		"contacts": {
+			"phone": "+7 (915) 404-50-60",
+			"email": "danilova@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Кутузовский проспект, д. 33, кв. 52",
+			"actual": "г. Москва, ул. Кутузовский проспект, д. 33, кв. 52"
+		},
+		"family": [
+			{
+				"fullName": "Данилов Владимир Евгеньевич",
+				"relationship": "Супруг",
+				"birthDate": "1984-07-09",
+				"employment": "Работает, архитектор"
+			},
+			{
+				"fullName": "Данилова Алиса Владимировна",
+				"relationship": "Дочь",
+				"birthDate": "2014-03-12",
+				"employment": "Учащаяся"
+			},
+			{
+				"fullName": "Данилов Егор Владимирович",
+				"relationship": "Сын",
+				"birthDate": "2018-06-27",
+				"employment": "Дошкольник"
+			}
+		],
+		"education": [
+			{
+				"institution": "Российская академия народного хозяйства и государственной службы",
+				"level": "Высшее",
+				"specialty": "Государственное и муниципальное управление",
+				"graduationYear": 2009
+			}
+		],
+		"employment": [
+			{
+				"organization": "Администрация района",
+				"position": "Главный специалист",
+				"status": "Работает",
+				"startDate": "2013-11-18"
+			}
+		],
+		"socialStatus": {
+			"type": "Работающий",
+			"supportCategories": ["Многодетная семья"]
+		}
 	},
 	{
 		"id": 25,
-		"firstName": "Максим",
-		"lastName": "Попов",
-		"middleName": "Дмитриевич",
-		"birthDate": "1979-10-15",
+		"firstName": "Григорий",
+		"lastName": "Козлов",
+		"middleName": "Денисович",
+		"birthDate": "1962-05-31",
 		"gender": "Мужской",
-		"district": "Западный",
-		"socialStatus": "Работающий",
-		"registeredAt": "2023-12-07"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Пермь",
+		"registrationDistrict": "Южный",
+		"maritalStatus": "Разведен",
+		"contacts": {
+			"phone": "+7 (915) 505-60-70",
+			"email": "kozlov@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Варшавское шоссе, д. 91, кв. 38",
+			"actual": "г. Москва, ул. Варшавское шоссе, д. 91, кв. 38"
+		},
+		"family": [
+			{
+				"fullName": "Козлова Марина Григорьевна",
+				"relationship": "Дочь",
+				"birthDate": "1988-11-14",
+				"employment": "Работает, менеджер"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский автодорожный институт",
+				"level": "Высшее",
+				"specialty": "Автомобильный транспорт",
+				"graduationYear": 1985
+			}
+		],
+		"employment": [
+			{
+				"organization": "ГКУ «Автомобильные дороги»",
+				"position": "Механик",
+				"status": "Пенсионер",
+				"startDate": "1986-06-10"
+			}
+		],
+		"socialStatus": {
+			"type": "Пенсионер",
+			"supportCategories": ["Ветеран труда"]
+		}
 	},
 	{
 		"id": 26,
-		"firstName": "Елена",
-		"lastName": "Соколова",
-		"middleName": "Александровна",
-		"birthDate": "1960-02-28",
+		"firstName": "Полина",
+		"lastName": "Николаева",
+		"middleName": "Алексеевна",
+		"birthDate": "2005-08-16",
 		"gender": "Женский",
-		"district": "Юго-Западный",
-		"socialStatus": "Пенсионер",
-		"registeredAt": "2022-04-13"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Москва",
+		"registrationDistrict": "Северо-Восточный",
+		"maritalStatus": "Не замужем",
+		"contacts": {
+			"phone": "+7 (915) 606-70-80",
+			"email": "nikolaeva@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Алтуфьевское шоссе, д. 14, кв. 66",
+			"actual": "г. Москва, ул. Алтуфьевское шоссе, д. 14, кв. 66"
+		},
+		"family": [
+			{
+				"fullName": "Николаев Алексей Сергеевич",
+				"relationship": "Отец",
+				"birthDate": "1978-03-22",
+				"employment": "Работает, инженер"
+			},
+			{
+				"fullName": "Николаева Ольга Михайловна",
+				"relationship": "Мать",
+				"birthDate": "1980-10-05",
+				"employment": "Работает, преподаватель"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский государственный университет пищевых производств",
+				"level": "Среднее профессиональное",
+				"specialty": "Технология пищевых продуктов",
+				"graduationYear": 2025
+			}
+		],
+		"employment": [],
+		"socialStatus": {
+			"type": "Студент",
+			"supportCategories": ["Молодой специалист"]
+		}
 	},
 	{
 		"id": 27,
-		"firstName": "Андрей",
-		"lastName": "Иванов",
-		"middleName": "Максимович",
-		"birthDate": "1996-06-10",
-		"gender": "Мужской",
-		"district": "Северо-Восточный",
-		"socialStatus": "Работающий",
-		"registeredAt": "2024-08-22"
+		"firstName": "Валентина",
+		"lastName": "Романова",
+		"middleName": "Ильинична",
+		"birthDate": "1947-07-03",
+		"gender": "Женский",
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Кострома",
+		"registrationDistrict": "Восточный",
+		"maritalStatus": "Вдова",
+		"contacts": {
+			"phone": "+7 (915) 707-80-90",
+			"email": "romanova@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Первомайская, д. 55, кв. 12",
+			"actual": "г. Москва, ул. Первомайская, д. 55, кв. 12"
+		},
+		"family": [
+			{
+				"fullName": "Романова Ирина Викторовна",
+				"relationship": "Дочь",
+				"birthDate": "1971-09-28",
+				"employment": "Работает, врач"
+			},
+			{
+				"fullName": "Романов Сергей Викторович",
+				"relationship": "Сын",
+				"birthDate": "1974-02-11",
+				"employment": "Работает, водитель"
+			},
+			{
+				"fullName": "Романова Дарья Сергеевна",
+				"relationship": "Внучка",
+				"birthDate": "2002-12-20",
+				"employment": "Работает, менеджер"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московское медицинское училище",
+				"level": "Среднее профессиональное",
+				"specialty": "Фельдшер",
+				"graduationYear": 1966
+			}
+		],
+		"employment": [
+			{
+				"organization": "Городская поликлиника № 12",
+				"position": "Фельдшер",
+				"status": "Пенсионер",
+				"startDate": "1967-08-01"
+			}
+		],
+		"socialStatus": {
+			"type": "Пенсионер",
+			"supportCategories": ["Ветеран труда", "Одиноко проживающий пенсионер"]
+		}
 	},
 	{
 		"id": 28,
-		"firstName": "Ольга",
-		"lastName": "Попова",
-		"middleName": "Сергеевна",
-		"birthDate": "1980-11-04",
-		"gender": "Женский",
-		"district": "Юго-Восточный",
-		"socialStatus": "Безработный",
-		"registeredAt": "2023-02-16"
+		"firstName": "Денис",
+		"lastName": "Мельников",
+		"middleName": "Олегович",
+		"birthDate": "1984-09-12",
+		"gender": "Мужской",
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Нижний Новгород",
+		"registrationDistrict": "Юго-Западный",
+		"maritalStatus": "Женат",
+		"contacts": {
+			"phone": "+7 (915) 808-90-01",
+			"email": "melnikov@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Ленинский проспект, д. 72, кв. 15",
+			"actual": "г. Москва, ул. Ленинский проспект, д. 72, кв. 15"
+		},
+		"family": [
+			{
+				"fullName": "Мельникова Екатерина Павловна",
+				"relationship": "Супруга",
+				"birthDate": "1985-05-17",
+				"employment": "Работает, врач"
+			},
+			{
+				"fullName": "Мельников Иван Денисович",
+				"relationship": "Сын",
+				"birthDate": "2011-04-23",
+				"employment": "Учащийся"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский государственный институт электроники и математики",
+				"level": "Высшее",
+				"specialty": "Прикладная математика",
+				"graduationYear": 2007
+			}
+		],
+		"employment": [
+			{
+				"organization": "ООО «Цифровые решения»",
+				"position": "Руководитель отдела разработки",
+				"status": "Работает",
+				"startDate": "2016-09-05"
+			}
+		],
+		"socialStatus": {
+			"type": "Работающий",
+			"supportCategories": []
+		}
 	},
 	{
 		"id": 29,
-		"firstName": "Сергей",
-		"lastName": "Смирнов",
-		"middleName": "Андреевич",
-		"birthDate": "1957-09-18",
-		"gender": "Мужской",
-		"district": "Северо-Западный",
-		"socialStatus": "Пенсионер",
-		"registeredAt": "2021-10-08"
+		"firstName": "Зоя",
+		"lastName": "Сидорова",
+		"middleName": "Геннадьевна",
+		"birthDate": "1976-11-09",
+		"gender": "Женский",
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Тверь",
+		"registrationDistrict": "Северный",
+		"maritalStatus": "Не замужем",
+		"contacts": {
+			"phone": "+7 (915) 909-01-12",
+			"email": "sidorova@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Беговая, д. 16, кв. 48",
+			"actual": "г. Москва, ул. Беговая, д. 16, кв. 48"
+		},
+		"family": [
+			{
+				"fullName": "Сидоров Артём Павлович",
+				"relationship": "Сын",
+				"birthDate": "1998-03-26",
+				"employment": "Работает, курьер"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский финансово-экономический колледж",
+				"level": "Среднее профессиональное",
+				"specialty": "Бухгалтерский учёт",
+				"graduationYear": 1995
+			}
+		],
+		"employment": [
+			{
+				"organization": "Временно не работает",
+				"position": "Бухгалтер",
+				"status": "Безработный",
+				"startDate": "2019-01-15"
+			}
+		],
+		"socialStatus": {
+			"type": "Безработный",
+			"supportCategories": ["Малоимущая семья"]
+		}
 	},
 	{
 		"id": 30,
-		"firstName": "Наталья",
-		"lastName": "Иванова",
-		"middleName": "Дмитриевна",
-		"birthDate": "1991-04-23",
-		"gender": "Женский",
-		"district": "Зеленоградский",
-		"socialStatus": "Работающий",
-		"registeredAt": "2024-11-05"
+		"firstName": "Евгений",
+		"lastName": "Киселёв",
+		"middleName": "Андреевич",
+		"birthDate": "1991-03-07",
+		"gender": "Мужской",
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Москва",
+		"registrationDistrict": "Троицкий",
+		"maritalStatus": "Женат",
+		"contacts": {
+			"phone": "+7 (915) 010-12-23",
+			"email": "kiselev@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, г. Троицк, ул. Сиреневая, д. 8, кв. 27",
+			"actual": "г. Москва, г. Троицк, ул. Сиреневая, д. 8, кв. 27"
+		},
+		"family": [
+			{
+				"fullName": "Киселёва Анна Дмитриевна",
+				"relationship": "Супруга",
+				"birthDate": "1992-08-13",
+				"employment": "Работает, бухгалтер"
+			},
+			{
+				"fullName": "Киселёв Михаил Евгеньевич",
+				"relationship": "Сын",
+				"birthDate": "2019-10-30",
+				"employment": "Дошкольник"
+			},
+			{
+				"fullName": "Киселёва София Евгеньевна",
+				"relationship": "Дочь",
+				"birthDate": "2023-01-16",
+				"employment": "Дошкольник"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский государственный строительный университет",
+				"level": "Высшее",
+				"specialty": "Инженерное строительство",
+				"graduationYear": 2013
+			}
+		],
+		"employment": [
+			{
+				"organization": "ООО «Городские проекты»",
+				"position": "Инженер-проектировщик",
+				"status": "Работает",
+				"startDate": "2015-06-22"
+			}
+		],
+		"socialStatus": {
+			"type": "Работающий",
+			"supportCategories": ["Молодая семья"]
+		}
 	},
 	{
 		"id": 31,
-		"firstName": "Александр",
-		"lastName": "Попов",
-		"middleName": "Андреевич",
-		"birthDate": "1977-07-12",
+		"firstName": "Алексей",
+		"lastName": "Тихонов",
+		"middleName": "Валентинович",
+		"birthDate": "1987-02-26",
 		"gender": "Мужской",
-		"district": "Центральный",
-		"socialStatus": "Работающий",
-		"registeredAt": "2023-05-26"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Москва",
+		"registrationDistrict": "Центральный",
+		"maritalStatus": "Женат",
+		"contacts": {
+			"phone": "+7 (917) 121-31-41",
+			"email": "tikhonov@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Покровка, д. 17, кв. 34",
+			"actual": "г. Москва, ул. Покровка, д. 17, кв. 34"
+		},
+		"family": [
+			{
+				"fullName": "Тихонова Марина Олеговна",
+				"relationship": "Супруга",
+				"birthDate": "1989-06-15",
+				"employment": "Работает, дизайнер"
+			},
+			{
+				"fullName": "Тихонов Павел Алексеевич",
+				"relationship": "Сын",
+				"birthDate": "2015-04-09",
+				"employment": "Учащийся"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский государственный технический университет им. Н. Э. Баумана",
+				"level": "Высшее",
+				"specialty": "Радиотехника",
+				"graduationYear": 2010
+			}
+		],
+		"employment": [
+			{
+				"organization": "АО «Электронные системы»",
+				"position": "Инженер-разработчик",
+				"status": "Работает",
+				"startDate": "2012-08-13"
+			}
+		],
+		"socialStatus": {
+			"type": "Работающий",
+			"supportCategories": []
+		}
 	},
 	{
 		"id": 32,
-		"firstName": "Анна",
-		"lastName": "Кузнецова",
-		"middleName": "Максимовна",
-		"birthDate": "1948-01-31",
+		"firstName": "Ксения",
+		"lastName": "Чернова",
+		"middleName": "Ильинична",
+		"birthDate": "1998-10-12",
 		"gender": "Женский",
-		"district": "Северный",
-		"socialStatus": "Пенсионер",
-		"registeredAt": "2021-02-17"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Москва",
+		"registrationDistrict": "Северо-Восточный",
+		"maritalStatus": "Не замужем",
+		"contacts": {
+			"phone": "+7 (917) 232-42-52",
+			"email": "chernova@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Ярославское шоссе, д. 19, кв. 52",
+			"actual": "г. Москва, ул. Ярославское шоссе, д. 19, кв. 52"
+		},
+		"family": [],
+		"education": [
+			{
+				"institution": "Российский государственный университет нефти и газа им. И. М. Губкина",
+				"level": "Высшее",
+				"specialty": "Экология и природопользование",
+				"graduationYear": 2020
+			}
+		],
+		"employment": [
+			{
+				"organization": "ООО «ЭкоМониторинг»",
+				"position": "Эколог",
+				"status": "Работает",
+				"startDate": "2021-01-18"
+			}
+		],
+		"socialStatus": {
+			"type": "Работающий",
+			"supportCategories": ["Молодой специалист"]
+		}
 	},
 	{
 		"id": 33,
-		"firstName": "Дмитрий",
-		"lastName": "Соколов",
-		"middleName": "Дмитриевич",
-		"birthDate": "2000-09-09",
+		"firstName": "Борис",
+		"lastName": "Степанов",
+		"middleName": "Михайлович",
+		"birthDate": "1951-04-20",
 		"gender": "Мужской",
-		"district": "Южный",
-		"socialStatus": "Студент",
-		"registeredAt": "2025-03-14"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Киров",
+		"registrationDistrict": "Юго-Западный",
+		"maritalStatus": "Женат",
+		"contacts": {
+			"phone": "+7 (917) 343-53-63",
+			"email": "stepanov@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Академика Волгина, д. 8, кв. 21",
+			"actual": "г. Москва, ул. Академика Волгина, д. 8, кв. 21"
+		},
+		"family": [
+			{
+				"fullName": "Степанова Галина Николаевна",
+				"relationship": "Супруга",
+				"birthDate": "1953-12-03",
+				"employment": "Пенсионер"
+			},
+			{
+				"fullName": "Степанов Михаил Борисович",
+				"relationship": "Сын",
+				"birthDate": "1978-07-17",
+				"employment": "Работает, преподаватель"
+			},
+			{
+				"fullName": "Степанова Ольга Борисовна",
+				"relationship": "Дочь",
+				"birthDate": "1981-09-28",
+				"employment": "Работает, врач"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский государственный университет путей сообщения",
+				"level": "Высшее",
+				"specialty": "Железнодорожный транспорт",
+				"graduationYear": 1974
+			}
+		],
+		"employment": [
+			{
+				"organization": "Московская железная дорога",
+				"position": "Машинист",
+				"status": "Пенсионер",
+				"startDate": "1975-03-01"
+			}
+		],
+		"socialStatus": {
+			"type": "Пенсионер",
+			"supportCategories": ["Ветеран труда"]
+		}
 	},
 	{
 		"id": 34,
-		"firstName": "Мария",
-		"lastName": "Иванова",
-		"middleName": "Александровна",
-		"birthDate": "1984-05-20",
+		"firstName": "Дарья",
+		"lastName": "Филиппова",
+		"middleName": "Сергеевна",
+		"birthDate": "1994-01-08",
 		"gender": "Женский",
-		"district": "Восточный",
-		"socialStatus": "Работающий",
-		"registeredAt": "2022-06-09"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Санкт-Петербург",
+		"registrationDistrict": "Западный",
+		"maritalStatus": "Замужем",
+		"contacts": {
+			"phone": "+7 (917) 454-64-74",
+			"email": "filippova@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Можайское шоссе, д. 27, кв. 63",
+			"actual": "г. Москва, ул. Можайское шоссе, д. 27, кв. 63"
+		},
+		"family": [
+			{
+				"fullName": "Филиппов Никита Андреевич",
+				"relationship": "Супруг",
+				"birthDate": "1992-05-19",
+				"employment": "Работает, менеджер"
+			},
+			{
+				"fullName": "Филиппова Ева Никитична",
+				"relationship": "Дочь",
+				"birthDate": "2020-11-12",
+				"employment": "Дошкольник"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский государственный университет дизайна и технологии",
+				"level": "Высшее",
+				"specialty": "Дизайн одежды",
+				"graduationYear": 2016
+			}
+		],
+		"employment": [
+			{
+				"organization": "ИП Филиппова Д. С.",
+				"position": "Дизайнер одежды",
+				"status": "Самозанятый",
+				"startDate": "2018-03-20"
+			}
+		],
+		"socialStatus": {
+			"type": "Самозанятый",
+			"supportCategories": ["Молодая семья"]
+		}
 	},
 	{
 		"id": 35,
-		"firstName": "Максим",
-		"lastName": "Смирнов",
-		"middleName": "Сергеевич",
-		"birthDate": "1965-12-14",
+		"firstName": "Василий",
+		"lastName": "Ковалёв",
+		"middleName": "Петрович",
+		"birthDate": "1970-07-29",
 		"gender": "Мужской",
-		"district": "Западный",
-		"socialStatus": "Пенсионер",
-		"registeredAt": "2021-11-23"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Белгород",
+		"registrationDistrict": "Восточный",
+		"maritalStatus": "Разведен",
+		"contacts": {
+			"phone": "+7 (917) 565-75-85",
+			"email": "kovalev@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Измайловское шоссе, д. 33, кв. 19",
+			"actual": "г. Москва, ул. Измайловское шоссе, д. 33, кв. 19"
+		},
+		"family": [
+			{
+				"fullName": "Ковалёва Екатерина Васильевна",
+				"relationship": "Дочь",
+				"birthDate": "1995-02-14",
+				"employment": "Работает, менеджер"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский строительный техникум",
+				"level": "Среднее профессиональное",
+				"specialty": "Строительство зданий",
+				"graduationYear": 1990
+			}
+		],
+		"employment": [
+			{
+				"organization": "ООО «СтройГарант»",
+				"position": "Мастер строительного участка",
+				"status": "Работает",
+				"startDate": "1996-05-06"
+			}
+		],
+		"socialStatus": {
+			"type": "Работающий",
+			"supportCategories": []
+		}
 	},
 	{
 		"id": 36,
-		"firstName": "Елена",
-		"lastName": "Кузнецова",
+		"firstName": "Алина",
+		"lastName": "Миронова",
 		"middleName": "Дмитриевна",
-		"birthDate": "1994-03-02",
+		"birthDate": "2002-12-04",
 		"gender": "Женский",
-		"district": "Юго-Западный",
-		"socialStatus": "Работающий",
-		"registeredAt": "2024-04-18"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Москва",
+		"registrationDistrict": "Юго-Восточный",
+		"maritalStatus": "Не замужем",
+		"contacts": {
+			"phone": "+7 (917) 676-86-96",
+			"email": "mironova@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Нижегородская, д. 25, кв. 84",
+			"actual": "г. Москва, ул. Нижегородская, д. 25, кв. 84"
+		},
+		"family": [
+			{
+				"fullName": "Миронов Дмитрий Алексеевич",
+				"relationship": "Отец",
+				"birthDate": "1974-06-20",
+				"employment": "Работает, инженер"
+			},
+			{
+				"fullName": "Миронова Светлана Игоревна",
+				"relationship": "Мать",
+				"birthDate": "1976-01-15",
+				"employment": "Работает, бухгалтер"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский государственный университет пищевых производств",
+				"level": "Высшее",
+				"specialty": "Биотехнология",
+				"graduationYear": 2024
+			}
+		],
+		"employment": [],
+		"socialStatus": {
+			"type": "Студент",
+			"supportCategories": []
+		}
 	},
 	{
 		"id": 37,
-		"firstName": "Андрей",
-		"lastName": "Попов",
-		"middleName": "Александрович",
-		"birthDate": "1989-08-26",
+		"firstName": "Валерий",
+		"lastName": "Осипов",
+		"middleName": "Николаевич",
+		"birthDate": "1960-11-15",
 		"gender": "Мужской",
-		"district": "Северо-Восточный",
-		"socialStatus": "Безработный",
-		"registeredAt": "2023-07-12"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Саратов",
+		"registrationDistrict": "Северный",
+		"maritalStatus": "Женат",
+		"contacts": {
+			"phone": "+7 (917) 787-97-07",
+			"email": "osipov@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Лихоборская набережная, д. 5, кв. 16",
+			"actual": "г. Москва, ул. Лихоборская набережная, д. 5, кв. 16"
+		},
+		"family": [
+			{
+				"fullName": "Осипова Надежда Павловна",
+				"relationship": "Супруга",
+				"birthDate": "1962-08-09",
+				"employment": "Пенсионер"
+			},
+			{
+				"fullName": "Осипов Андрей Валерьевич",
+				"relationship": "Сын",
+				"birthDate": "1986-03-21",
+				"employment": "Работает, программист"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский энергетический институт",
+				"level": "Высшее",
+				"specialty": "Электроэнергетика",
+				"graduationYear": 1983
+			}
+		],
+		"employment": [
+			{
+				"organization": "Мосэнерго",
+				"position": "Инженер-энергетик",
+				"status": "Пенсионер",
+				"startDate": "1984-04-02"
+			}
+		],
+		"socialStatus": {
+			"type": "Пенсионер",
+			"supportCategories": ["Ветеран труда"]
+		}
 	},
 	{
 		"id": 38,
-		"firstName": "Ольга",
-		"lastName": "Соколова",
-		"middleName": "Максимовна",
-		"birthDate": "1972-10-19",
+		"firstName": "Маргарита",
+		"lastName": "Богданова",
+		"middleName": "Анатольевна",
+		"birthDate": "1983-05-23",
 		"gender": "Женский",
-		"district": "Юго-Восточный",
-		"socialStatus": "Инвалид",
-		"registeredAt": "2022-12-01"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Москва",
+		"registrationDistrict": "Южный",
+		"maritalStatus": "Замужем",
+		"contacts": {
+			"phone": "+7 (917) 898-08-18",
+			"email": "bogdanova@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Чертановская, д. 28, кв. 47",
+			"actual": "г. Москва, ул. Чертановская, д. 28, кв. 47"
+		},
+		"family": [
+			{
+				"fullName": "Богданов Анатолий Сергеевич",
+				"relationship": "Супруг",
+				"birthDate": "1981-10-16",
+				"employment": "Работает, инженер"
+			},
+			{
+				"fullName": "Богданова Виктория Анатольевна",
+				"relationship": "Дочь",
+				"birthDate": "2007-07-28",
+				"employment": "Учащаяся"
+			},
+			{
+				"fullName": "Богданов Арсений Анатольевич",
+				"relationship": "Сын",
+				"birthDate": "2012-02-11",
+				"employment": "Учащийся"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский государственный университет экономики, статистики и информатики",
+				"level": "Высшее",
+				"specialty": "Бухгалтерский учёт и аудит",
+				"graduationYear": 2005
+			}
+		],
+		"employment": [
+			{
+				"organization": "ООО «Финансовый аудит»",
+				"position": "Главный бухгалтер",
+				"status": "Работает",
+				"startDate": "2009-09-14"
+			}
+		],
+		"socialStatus": {
+			"type": "Работающий",
+			"supportCategories": ["Многодетная семья"]
+		}
 	},
 	{
 		"id": 39,
-		"firstName": "Сергей",
-		"lastName": "Кузнецов",
-		"middleName": "Сергеевич",
-		"birthDate": "1954-04-15",
+		"firstName": "Константин",
+		"lastName": "Быков",
+		"middleName": "Романович",
+		"birthDate": "1996-03-18",
 		"gender": "Мужской",
-		"district": "Северо-Западный",
-		"socialStatus": "Пенсионер",
-		"registeredAt": "2021-07-29"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Москва",
+		"registrationDistrict": "Зеленоградский",
+		"maritalStatus": "Не женат",
+		"contacts": {
+			"phone": "+7 (917) 909-19-29",
+			"email": "bykov@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, Зеленоград, корп. 1812, кв. 32",
+			"actual": "г. Москва, Зеленоград, корп. 1812, кв. 32"
+		},
+		"family": [],
+		"education": [
+			{
+				"institution": "Московский государственный университет спорта и туризма",
+				"level": "Высшее",
+				"specialty": "Физическая культура",
+				"graduationYear": 2018
+			}
+		],
+		"employment": [
+			{
+				"organization": "Спортивный клуб «Олимп»",
+				"position": "Тренер",
+				"status": "Работает",
+				"startDate": "2019-01-10"
+			}
+		],
+		"socialStatus": {
+			"type": "Работающий",
+			"supportCategories": []
+		}
 	},
 	{
 		"id": 40,
-		"firstName": "Наталья",
-		"lastName": "Смирнова",
-		"middleName": "Александровна",
-		"birthDate": "1986-06-05",
+		"firstName": "Надежда",
+		"lastName": "Виноградова",
+		"middleName": "Павловна",
+		"birthDate": "1979-08-02",
 		"gender": "Женский",
-		"district": "Зеленоградский",
-		"socialStatus": "Работающий",
-		"registeredAt": "2024-07-16"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Владимир",
+		"registrationDistrict": "Троицкий",
+		"maritalStatus": "Разведена",
+		"contacts": {
+			"phone": "+7 (917) 010-20-30",
+			"email": "vinogradova@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, г. Троицк, ул. Нагорная, д. 12, кв. 8",
+			"actual": "г. Москва, г. Троицк, ул. Нагорная, д. 12, кв. 8"
+		},
+		"family": [
+			{
+				"fullName": "Виноградов Павел Сергеевич",
+				"relationship": "Сын",
+				"birthDate": "2001-04-17",
+				"employment": "Работает, менеджер"
+			},
+			{
+				"fullName": "Виноградова Анастасия Сергеевна",
+				"relationship": "Дочь",
+				"birthDate": "2005-09-30",
+				"employment": "Студент"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский педагогический государственный университет",
+				"level": "Высшее",
+				"specialty": "Психология",
+				"graduationYear": 2002
+			}
+		],
+		"employment": [
+			{
+				"organization": "Временно не работает",
+				"position": "Психолог",
+				"status": "Безработный",
+				"startDate": "2023-06-01"
+			}
+		],
+		"socialStatus": {
+			"type": "Безработный",
+			"supportCategories": ["Одинокий родитель"]
+		}
 	},
 	{
 		"id": 41,
-		"firstName": "Александр",
-		"lastName": "Соколов",
-		"middleName": "Дмитриевич",
-		"birthDate": "1997-01-13",
+		"firstName": "Игорь",
+		"lastName": "Максимов",
+		"middleName": "Владимирович",
+		"birthDate": "1989-04-17",
 		"gender": "Мужской",
-		"district": "Центральный",
-		"socialStatus": "Работающий",
-		"registeredAt": "2025-04-21"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Тула",
+		"registrationDistrict": "Северо-Западный",
+		"maritalStatus": "Женат",
+		"contacts": {
+			"phone": "+7 (916) 111-22-31",
+			"email": "maksimov@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Свободы, д. 42, кв. 18",
+			"actual": "г. Москва, ул. Свободы, д. 42, кв. 18"
+		},
+		"family": [
+			{
+				"fullName": "Максимова Оксана Игоревна",
+				"relationship": "Супруга",
+				"birthDate": "1990-12-08",
+				"employment": "Работает, фармацевт"
+			},
+			{
+				"fullName": "Максимов Артём Игоревич",
+				"relationship": "Сын",
+				"birthDate": "2016-03-22",
+				"employment": "Учащийся"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский государственный университет технологий и управления",
+				"level": "Высшее",
+				"specialty": "Информационные системы и технологии",
+				"graduationYear": 2011
+			}
+		],
+		"employment": [
+			{
+				"organization": "ООО «ТехноСервис»",
+				"position": "Системный аналитик",
+				"status": "Работает",
+				"startDate": "2015-09-14"
+			}
+		],
+		"socialStatus": {
+			"type": "Работающий",
+			"supportCategories": ["Молодая семья"]
+		}
 	},
 	{
 		"id": 42,
-		"firstName": "Анна",
-		"lastName": "Попова",
-		"middleName": "Андреевна",
-		"birthDate": "1959-11-22",
+		"firstName": "Лариса",
+		"lastName": "Гусева",
+		"middleName": "Викторовна",
+		"birthDate": "1958-09-11",
 		"gender": "Женский",
-		"district": "Северный",
-		"socialStatus": "Пенсионер",
-		"registeredAt": "2022-03-05"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Рязань",
+		"registrationDistrict": "Южный",
+		"maritalStatus": "Вдова",
+		"contacts": {
+			"phone": "+7 (916) 222-33-42",
+			"email": "guseva@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Кировоградская, д. 15, кв. 91",
+			"actual": "г. Москва, ул. Кировоградская, д. 15, кв. 91"
+		},
+		"family": [
+			{
+				"fullName": "Гусев Андрей Николаевич",
+				"relationship": "Сын",
+				"birthDate": "1983-01-25",
+				"employment": "Работает, водитель"
+			},
+			{
+				"fullName": "Гусева Полина Андреевна",
+				"relationship": "Внучка",
+				"birthDate": "2010-06-13",
+				"employment": "Учащаяся"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский медицинский колледж № 1",
+				"level": "Среднее профессиональное",
+				"specialty": "Сестринское дело",
+				"graduationYear": 1978
+			}
+		],
+		"employment": [
+			{
+				"organization": "Городская поликлиника № 12",
+				"position": "Медицинская сестра",
+				"status": "Пенсионер",
+				"startDate": "1979-02-01"
+			}
+		],
+		"socialStatus": {
+			"type": "Пенсионер",
+			"supportCategories": ["Ветеран труда", "Одиноко проживающий пенсионер"]
+		}
 	},
 	{
 		"id": 43,
-		"firstName": "Дмитрий",
-		"lastName": "Смирнов",
-		"middleName": "Максимович",
-		"birthDate": "1982-07-08",
+		"firstName": "Станислав",
+		"lastName": "Ершов",
+		"middleName": "Олегович",
+		"birthDate": "2003-06-27",
 		"gender": "Мужской",
-		"district": "Южный",
-		"socialStatus": "Работающий",
-		"registeredAt": "2023-09-17"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Москва",
+		"registrationDistrict": "Восточный",
+		"maritalStatus": "Не женат",
+		"contacts": {
+			"phone": "+7 (916) 333-44-53",
+			"email": "ershov@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Первомайская, д. 68, кв. 14",
+			"actual": "г. Москва, ул. Первомайская, д. 68, кв. 14"
+		},
+		"family": [
+			{
+				"fullName": "Ершов Олег Станиславович",
+				"relationship": "Отец",
+				"birthDate": "1976-02-10",
+				"employment": "Работает, инженер"
+			},
+			{
+				"fullName": "Ершова Ирина Павловна",
+				"relationship": "Мать",
+				"birthDate": "1978-11-19",
+				"employment": "Работает, преподаватель"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский колледж информационных технологий",
+				"level": "Среднее профессиональное",
+				"specialty": "Программирование",
+				"graduationYear": 2023
+			}
+		],
+		"employment": [
+			{
+				"organization": "ООО «Диджитал Про»",
+				"position": "Младший разработчик",
+				"status": "Работает",
+				"startDate": "2024-02-12"
+			}
+		],
+		"socialStatus": {
+			"type": "Работающий",
+			"supportCategories": ["Молодой специалист"]
+		}
 	},
 	{
 		"id": 44,
-		"firstName": "Мария",
-		"lastName": "Кузнецова",
-		"middleName": "Сергеевна",
-		"birthDate": "2003-03-16",
+		"firstName": "Елена",
+		"lastName": "Савельева",
+		"middleName": "Борисовна",
+		"birthDate": "1974-12-03",
 		"gender": "Женский",
-		"district": "Восточный",
-		"socialStatus": "Студент",
-		"registeredAt": "2025-08-04"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Кострома",
+		"registrationDistrict": "Юго-Восточный",
+		"maritalStatus": "Замужем",
+		"contacts": {
+			"phone": "+7 (916) 444-55-64",
+			"email": "saveleva@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, Волгоградский пр-т, д. 91, кв. 37",
+			"actual": "г. Москва, Волгоградский пр-т, д. 91, кв. 37"
+		},
+		"family": [
+			{
+				"fullName": "Савельев Николай Петрович",
+				"relationship": "Супруг",
+				"birthDate": "1972-05-14",
+				"employment": "Работает, инженер"
+			},
+			{
+				"fullName": "Савельева Мария Николаевна",
+				"relationship": "Дочь",
+				"birthDate": "1998-08-30",
+				"employment": "Работает, юрист"
+			},
+			{
+				"fullName": "Савельев Дмитрий Николаевич",
+				"relationship": "Сын",
+				"birthDate": "2005-01-16",
+				"employment": "Студент"
+			},
+			{
+				"fullName": "Савельева София Николаевна",
+				"relationship": "Дочь",
+				"birthDate": "2012-10-05",
+				"employment": "Учащаяся"
+			}
+		],
+		"education": [
+			{
+				"institution": "Российский государственный социальный университет",
+				"level": "Высшее",
+				"specialty": "Социальная работа",
+				"graduationYear": 1997
+			}
+		],
+		"employment": [
+			{
+				"organization": "Центр социальной поддержки населения",
+				"position": "Специалист по социальной работе",
+				"status": "Работает",
+				"startDate": "2001-04-16"
+			}
+		],
+		"socialStatus": {
+			"type": "Работающий",
+			"supportCategories": ["Многодетная семья"]
+		}
 	},
 	{
 		"id": 45,
-		"firstName": "Максим",
-		"lastName": "Иванов",
-		"middleName": "Александрович",
-		"birthDate": "1975-05-27",
+		"firstName": "Павел",
+		"lastName": "Комаров",
+		"middleName": "Евгеньевич",
+		"birthDate": "1966-03-09",
 		"gender": "Мужской",
-		"district": "Западный",
-		"socialStatus": "Инвалид",
-		"registeredAt": "2022-10-11"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Смоленск",
+		"registrationDistrict": "Северный",
+		"maritalStatus": "Разведен",
+		"contacts": {
+			"phone": "+7 (916) 555-66-75",
+			"email": "komarov@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Дубнинская, д. 24, кв. 56",
+			"actual": "г. Москва, ул. Дубнинская, д. 24, кв. 56"
+		},
+		"family": [
+			{
+				"fullName": "Комаров Алексей Павлович",
+				"relationship": "Сын",
+				"birthDate": "1992-07-21",
+				"employment": "Работает, менеджер"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский автодорожный институт",
+				"level": "Высшее",
+				"specialty": "Автомобильные дороги",
+				"graduationYear": 1988
+			}
+		],
+		"employment": [
+			{
+				"organization": "ГБУ «Автомобильные дороги»",
+				"position": "Мастер участка",
+				"status": "Работает",
+				"startDate": "1990-05-15"
+			}
+		],
+		"socialStatus": {
+			"type": "Работающий",
+			"supportCategories": []
+		}
 	},
 	{
 		"id": 46,
-		"firstName": "Елена",
-		"lastName": "Смирнова",
-		"middleName": "Дмитриевна",
-		"birthDate": "1990-12-01",
+		"firstName": "Оксана",
+		"lastName": "Беляева",
+		"middleName": "Романовна",
+		"birthDate": "1981-07-14",
 		"gender": "Женский",
-		"district": "Юго-Западный",
-		"socialStatus": "Работающий",
-		"registeredAt": "2024-06-23"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Москва",
+		"registrationDistrict": "Юго-Западный",
+		"maritalStatus": "Не замужем",
+		"contacts": {
+			"phone": "+7 (916) 666-77-86",
+			"email": "belyaeva@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Профсоюзная, д. 112, кв. 45",
+			"actual": "г. Москва, ул. Профсоюзная, д. 112, кв. 45"
+		},
+		"family": [
+			{
+				"fullName": "Беляев Артём Сергеевич",
+				"relationship": "Сын",
+				"birthDate": "2008-04-02",
+				"employment": "Учащийся"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский государственный институт культуры",
+				"level": "Высшее",
+				"specialty": "Библиотечно-информационная деятельность",
+				"graduationYear": 2004
+			}
+		],
+		"employment": [
+			{
+				"organization": "Городская библиотека № 180",
+				"position": "Заведующая отделом",
+				"status": "Работает",
+				"startDate": "2006-09-01"
+			}
+		],
+		"socialStatus": {
+			"type": "Работающий",
+			"supportCategories": ["Одинокий родитель"]
+		}
 	},
 	{
 		"id": 47,
-		"firstName": "Андрей",
-		"lastName": "Соколов",
-		"middleName": "Сергеевич",
-		"birthDate": "1961-02-09",
+		"firstName": "Геннадий",
+		"lastName": "Фомин",
+		"middleName": "Аркадьевич",
+		"birthDate": "1948-05-22",
 		"gender": "Мужской",
-		"district": "Северо-Восточный",
-		"socialStatus": "Пенсионер",
-		"registeredAt": "2021-09-14"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Ярославль",
+		"registrationDistrict": "Центральный",
+		"maritalStatus": "Вдовец",
+		"contacts": {
+			"phone": "+7 (916) 777-88-97",
+			"email": "fomin@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Садовая-Каретная, д. 8, кв. 12",
+			"actual": "г. Москва, ул. Садовая-Каретная, д. 8, кв. 12"
+		},
+		"family": [
+			{
+				"fullName": "Фомина Наталья Геннадьевна",
+				"relationship": "Дочь",
+				"birthDate": "1975-03-19",
+				"employment": "Работает, врач"
+			},
+			{
+				"fullName": "Фомин Сергей Геннадьевич",
+				"relationship": "Сын",
+				"birthDate": "1978-12-07",
+				"employment": "Работает, водитель"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский авиационный институт",
+				"level": "Высшее",
+				"specialty": "Авиационные двигатели",
+				"graduationYear": 1971
+			}
+		],
+		"employment": [
+			{
+				"organization": "Авиационный научно-технический комплекс",
+				"position": "Инженер-конструктор",
+				"status": "Пенсионер",
+				"startDate": "1972-06-01"
+			}
+		],
+		"socialStatus": {
+			"type": "Пенсионер",
+			"supportCategories": ["Ветеран труда", "Инвалид II группы"]
+		}
 	},
 	{
 		"id": 48,
-		"firstName": "Ольга",
-		"lastName": "Иванова",
-		"middleName": "Александровна",
-		"birthDate": "1996-10-28",
+		"firstName": "Виктория",
+		"lastName": "Зорина",
+		"middleName": "Андреевна",
+		"birthDate": "1997-11-26",
 		"gender": "Женский",
-		"district": "Юго-Восточный",
-		"socialStatus": "Безработный",
-		"registeredAt": "2023-11-02"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Москва",
+		"registrationDistrict": "Зеленоградский",
+		"maritalStatus": "Замужем",
+		"contacts": {
+			"phone": "+7 (916) 888-99-08",
+			"email": "zorina@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, Зеленоград, корп. 1406, кв. 51",
+			"actual": "г. Москва, Зеленоград, корп. 1406, кв. 51"
+		},
+		"family": [
+			{
+				"fullName": "Зорин Максим Алексеевич",
+				"relationship": "Супруг",
+				"birthDate": "1995-02-18",
+				"employment": "Работает, менеджер"
+			},
+			{
+				"fullName": "Зорина Алиса Максимовна",
+				"relationship": "Дочь",
+				"birthDate": "2023-06-09",
+				"employment": "Дошкольник"
+			}
+		],
+		"education": [
+			{
+				"institution": "Российский экономический университет им. Г. В. Плеханова",
+				"level": "Высшее",
+				"specialty": "Маркетинг",
+				"graduationYear": 2019
+			}
+		],
+		"employment": [
+			{
+				"organization": "ООО «МедиаГрупп»",
+				"position": "Маркетолог",
+				"status": "Работает",
+				"startDate": "2020-02-03"
+			}
+		],
+		"socialStatus": {
+			"type": "Работающий",
+			"supportCategories": ["Молодая семья"]
+		}
 	},
 	{
 		"id": 49,
-		"firstName": "Сергей",
-		"lastName": "Попов",
-		"middleName": "Максимович",
-		"birthDate": "1980-04-17",
+		"firstName": "Эдуард",
+		"lastName": "Семенов",
+		"middleName": "Игоревич",
+		"birthDate": "1972-02-05",
 		"gender": "Мужской",
-		"district": "Северо-Западный",
-		"socialStatus": "Работающий",
-		"registeredAt": "2024-03-19"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Орёл",
+		"registrationDistrict": "Восточный",
+		"maritalStatus": "Женат",
+		"contacts": {
+			"phone": "+7 (916) 999-00-19",
+			"email": "semenov@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Щербаковская, д. 35, кв. 27",
+			"actual": "г. Москва, ул. Щербаковская, д. 35, кв. 27"
+		},
+		"family": [
+			{
+				"fullName": "Семенова Ирина Валерьевна",
+				"relationship": "Супруга",
+				"birthDate": "1974-08-12",
+				"employment": "Работает, экономист"
+			},
+			{
+				"fullName": "Семенов Арсений Эдуардович",
+				"relationship": "Сын",
+				"birthDate": "2000-10-25",
+				"employment": "Работает, специалист по логистике"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский государственный университет геодезии и картографии",
+				"level": "Высшее",
+				"specialty": "Картография",
+				"graduationYear": 1994
+			}
+		],
+		"employment": [
+			{
+				"organization": "АО «ГеоПроект»",
+				"position": "Руководитель отдела",
+				"status": "Работает",
+				"startDate": "1998-11-16"
+			}
+		],
+		"socialStatus": {
+			"type": "Работающий",
+			"supportCategories": []
+		}
 	},
 	{
 		"id": 50,
-		"firstName": "Наталья",
-		"lastName": "Кузнецова",
-		"middleName": "Сергеевна",
-		"birthDate": "1956-08-31",
+		"firstName": "Нина",
+		"lastName": "Кудрявцева",
+		"middleName": "Алексеевна",
+		"birthDate": "1969-06-30",
 		"gender": "Женский",
-		"district": "Зеленоградский",
-		"socialStatus": "Пенсионер",
-		"registeredAt": "2021-05-08"
+		"citizenship": "Российская Федерация",
+		"birthPlace": "г. Курск",
+		"registrationDistrict": "Южный",
+		"maritalStatus": "Разведена",
+		"contacts": {
+			"phone": "+7 (916) 000-11-20",
+			"email": "kudryavtseva@example.ru"
+		},
+		"addresses": {
+			"registration": "г. Москва, ул. Бирюлёвская, д. 17, кв. 63",
+			"actual": "г. Москва, ул. Бирюлёвская, д. 17, кв. 63"
+		},
+		"family": [
+			{
+				"fullName": "Кудрявцев Михаил Сергеевич",
+				"relationship": "Сын",
+				"birthDate": "1993-09-14",
+				"employment": "Работает, электрик"
+			},
+			{
+				"fullName": "Кудрявцева Дарья Михайловна",
+				"relationship": "Внучка",
+				"birthDate": "2018-12-22",
+				"employment": "Дошкольник"
+			}
+		],
+		"education": [
+			{
+				"institution": "Московский технологический колледж",
+				"level": "Среднее профессиональное",
+				"specialty": "Технология швейного производства",
+				"graduationYear": 1988
+			}
+		],
+		"employment": [
+			{
+				"organization": "Временно не работает",
+				"position": "Швея",
+				"status": "Безработный",
+				"startDate": "2024-01-15"
+			}
+		],
+		"socialStatus": {
+			"type": "Безработный",
+			"supportCategories": ["Малоимущая семья"]
+		}
 	}
 ]

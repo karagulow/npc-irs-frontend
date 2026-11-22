@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 
 import { AppLayout } from '@/components/layout/app-layout';
-import { CitizensPage, DashboardPage } from '@/pages';
+import { CitizenProfilePage, CitizensPage, DashboardPage } from '@/pages';
 
 function App() {
 	return (
@@ -12,7 +12,7 @@ function App() {
 					<Route path='dashboard' element={<DashboardPage />} />
 					<Route path='citizens' element={<CitizensPage />} />
 					{/* <Route path='citizens/new' element={<CreateCitizenPage />} /> */}
-					{/* <Route path='citizens/:id' element={<CitizenProfilePage />} /> */}
+					<Route path='citizens/:id' element={<CitizenProfilePage />} />
 				</Route>
 			</Routes>
 		</BrowserRouter>

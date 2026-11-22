@@ -1,11 +1,32 @@
 export type Gender = 'Мужской' | 'Женский';
 
-export type SocialStatus =
+export type SocialStatusType =
 	| 'Работающий'
 	| 'Пенсионер'
 	| 'Студент'
 	| 'Безработный'
-	| 'Инвалид';
+	| 'Самозанятый';
+
+export interface CitizenFamilyMember {
+	fullName: string;
+	relationship: string;
+	birthDate: string;
+	employment: string;
+}
+
+export interface CitizenEducation {
+	institution: string;
+	level: string;
+	specialty: string;
+	graduationYear: number;
+}
+
+export interface CitizenEmployment {
+	organization: string;
+	position: string;
+	status: string;
+	startDate: string;
+}
 
 export interface Citizen {
 	id: number;
@@ -14,9 +35,25 @@ export interface Citizen {
 	middleName: string;
 	birthDate: string;
 	gender: Gender;
-	district: string;
-	socialStatus: SocialStatus;
-	registeredAt: string;
+	citizenship: string;
+	birthPlace: string;
+	registrationDistrict: string;
+	maritalStatus: string;
+	contacts: {
+		phone: string;
+		email: string;
+	};
+	addresses: {
+		registration: string;
+		actual: string;
+	};
+	family: CitizenFamilyMember[];
+	education: CitizenEducation[];
+	employment: CitizenEmployment[];
+	socialStatus: {
+		type: SocialStatusType;
+		supportCategories: string[];
+	};
 }
 
 export const districts = [
@@ -30,12 +67,13 @@ export const districts = [
 	'Западный',
 	'Северо-Западный',
 	'Зеленоградский',
+	'Троицкий',
 ];
 
-export const socialStatuses: SocialStatus[] = [
+export const socialStatuses: SocialStatusType[] = [
 	'Работающий',
 	'Пенсионер',
 	'Студент',
 	'Безработный',
-	'Инвалид',
+	'Самозанятый',
 ];

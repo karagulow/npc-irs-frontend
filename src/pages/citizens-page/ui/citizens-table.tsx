@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { UserRound, ArrowUpDown, ArrowUp, ArrowDown } from 'lucide-react';
 
 import { type Citizen } from '../types';
@@ -44,6 +45,23 @@ function formatDate(date: string): string {
 
 function getInitials(citizen: Citizen): string {
 	return `${citizen.firstName[0]}${citizen.lastName[0]}`;
+}
+
+function getStatusColor(status: Citizen['socialStatus']['type']): string {
+	switch (status) {
+		case 'Работающий':
+			return 'bg-emerald-50 text-emerald-700';
+		case 'Пенсионер':
+			return 'bg-blue-50 text-blue-700';
+		case 'Студент':
+			return 'bg-violet-50 text-violet-700';
+		case 'Безработный':
+			return 'bg-amber-50 text-amber-700';
+		case 'Самозанятый':
+			return 'bg-rose-50 text-rose-700';
+		default:
+			return 'bg-muted text-muted-foreground';
+	}
 }
 
 export const CitizensTable: React.FC<CitizensTableProps> = ({ citizens }) => {
@@ -109,6 +127,7 @@ export const CitizensTable: React.FC<CitizensTableProps> = ({ citizens }) => {
 									{renderSortIcon('fullName')}
 								</button>
 							</th>
+
 							<th className='px-4 py-3.5 font-medium'>
 								<button
 									onClick={() => handleSort('birthDate')}
@@ -118,18 +137,10 @@ export const CitizensTable: React.FC<CitizensTableProps> = ({ citizens }) => {
 									{renderSortIcon('birthDate')}
 								</button>
 							</th>
+
 							<th className='px-4 py-3.5 font-medium'>Пол</th>
 							<th className='px-4 py-3.5 font-medium'>Район</th>
 							<th className='px-4 py-3.5 font-medium'>Социальный статус</th>
-							<th className='px-4 py-3.5 font-medium'>
-								<button
-									onClick={() => handleSort('registeredAt')}
-									className='inline-flex items-center gap-2 transition-colors hover:text-foreground'
-								>
-									Дата регистрации
-									{renderSortIcon('registeredAt')}
-								</button>
-							</th>
 						</tr>
 					</thead>
 
@@ -142,15 +153,21 @@ export const CitizensTable: React.FC<CitizensTableProps> = ({ citizens }) => {
 								<td className='px-5 py-3'>
 									<div className='flex items-center gap-3'>
 										<div
-											className={`flex size-9 shrink-0 items-center justify-center rounded-full text-xs font-semibold ${avatarColors[(citizen.id - 1) % avatarColors.length]}`}
+											className={`flex size-9 shrink-0 items-center justify-center rounded-full text-xs font-semibold ${
+												avatarColors[(citizen.id - 1) % avatarColors.length]
+											}`}
 										>
 											{getInitials(citizen)}
 										</div>
 
 										<div className='min-w-0'>
-											<p className='truncate font-medium text-foreground'>
+											<Link
+												to={`/citizens/${citizen.id}`}
+												className='truncate font-medium text-foreground transition-colors hover:text-primary hover:underline'
+											>
 												{citizen.lastName} {citizen.firstName}
-											</p>
+											</Link>
+
 											<p className='text-xs text-muted-foreground'>
 												{citizen.middleName}
 											</p>
@@ -171,35 +188,23 @@ export const CitizensTable: React.FC<CitizensTableProps> = ({ citizens }) => {
 									{citizen.gender}
 								</td>
 
-								<td className='px-4 py-3'>{citizen.district}</td>
+								<td className='px-4 py-3'>{citizen.registrationDistrict}</td>
 
 								<td className='px-4 py-3'>
 									<span
-										className={`inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ${
-											citizen.socialStatus === 'Работающий'
-												? 'bg-emerald-50 text-emerald-700'
-												: citizen.socialStatus === 'Пенсионер'
-													? 'bg-blue-50 text-blue-700'
-													: citizen.socialStatus === 'Студент'
-														? 'bg-violet-50 text-violet-700'
-														: citizen.socialStatus === 'Безработный'
-															? 'bg-amber-50 text-amber-700'
-															: 'bg-rose-50 text-rose-700'
-										}`}
+										className={`inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ${getStatusColor(
+											citizen.socialStatus.type,
+										)}`}
 									>
-										{citizen.socialStatus}
+										{citizen.socialStatus.type}
 									</span>
-								</td>
-
-								<td className='px-4 py-3 text-muted-foreground'>
-									{formatDate(citizen.registeredAt)}
 								</td>
 							</tr>
 						))}
 
 						{paginatedCitizens.length === 0 && (
 							<tr>
-								<td colSpan={6} className='px-5 py-16 text-center'>
+								<td colSpan={5} className='px-5 py-16 text-center'>
 									<div className='flex flex-col items-center gap-2'>
 										<div className='flex size-11 items-center justify-center rounded-full bg-muted'>
 											<UserRound size={20} className='text-muted-foreground' />

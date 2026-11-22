@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react';
 
 import { type Citizen } from '../types';
 
-export type SortField = 'fullName' | 'birthDate' | 'registeredAt';
+export type SortField = 'fullName' | 'birthDate';
 export type SortDirection = 'asc' | 'desc';
 
 const ITEMS_PER_PAGE = 20;
@@ -30,9 +30,9 @@ export const useCitizensTable = ({ citizens }: UseCitizensTableProps) => {
 			const matchesSearch = fullName.includes(search.toLowerCase());
 			const matchesGender = !genderFilter || citizen.gender === genderFilter;
 			const matchesDistrict =
-				!districtFilter || citizen.district === districtFilter;
+				!districtFilter || citizen.registrationDistrict === districtFilter;
 			const matchesStatus =
-				!statusFilter || citizen.socialStatus === statusFilter;
+				!statusFilter || citizen.socialStatus.type === statusFilter;
 
 			return matchesSearch && matchesGender && matchesDistrict && matchesStatus;
 		});
@@ -53,10 +53,6 @@ export const useCitizensTable = ({ citizens }: UseCitizensTableProps) => {
 
 				case 'birthDate':
 					comparison = a.birthDate.localeCompare(b.birthDate);
-					break;
-
-				case 'registeredAt':
-					comparison = a.registeredAt.localeCompare(b.registeredAt);
 					break;
 			}
 
