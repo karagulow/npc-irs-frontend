@@ -7,6 +7,7 @@ import {
 	CitizensPage,
 	CreateCitizenPage,
 	DashboardPage,
+	NotFoundPage,
 } from '@/pages';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
 						<Route path='citizens/new' element={<CreateCitizenPage />} />
 						<Route path='citizens/:id' element={<CitizenProfilePage />} />
 					</Route>
+					<Route path='*' element={<NotFoundPage />} />
 				</Routes>
 			</BrowserRouter>
 		</ThemeProvider>
