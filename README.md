@@ -32,7 +32,7 @@
 Склонировать репозиторий и установить зависимости:
 
 ```bash
-git clone https://github.com/USERNAME/npc-irs-frontend.git
+git clone https://github.com/karagulow/npc-irs-frontend.git
 cd npc-irs-frontend
 npm install
 ```
